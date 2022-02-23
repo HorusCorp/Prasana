@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+ul h1{
+  margin: 0 45px 0 0;
+  padding: 7px 15px;
+}
+
+/* ==================================================== BANNER + HEADER ========================================================*/
+
+.header__background{
+  background-image: url(../public/wave3.png);
+  background-size: cover;
+  background-position:center;
+  width: 100vw;
+  min-height: 1068px;
+  height: auto;
+}
+.Navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.Navbar__list_container ul{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.Navbar__list_container span{
+  font-size: 45px;
+}
+.Navbar > div {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  
+  font-weight: bold;
+}
+.Navbar ul{
+  list-style : none;
+  color: white;
+  font-weight: bold;
+}
+.Navbar ul li{
+  margin-right: 15px;
+  margin-top: 20px;
+  padding: 7px 15px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  color: white;
+  min-width: fit-content;
+}
+.Navbar ul:nth-child(1){
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.Navbar ul:nth-child(2){
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  cursor: pointer;
+}
+.Navbar ul:nth-child(1) li:hover{
+  background-color: black;
+  opacity: 0.4;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+.header__card__container{
+  display: flex;
+  justify-content: center;
+  max-height: 400px;
+}
+.header__card{
+  width: 350px;
+  height: 250px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 35px 20px;
+  margin: 20px 20px 35px 20px;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s linear;
+}
+.header__card:hover{
+  transform: translateY(-20px);
+}
+.header__card h2{
+  font-size: 20px;
+}
+.header__img_container{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.header__img__text{
+  margin-top: 150px;
+  margin-right: 150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__img{
+  background-image: url(../public/doctors.png);
+  background-size: cover;
+  height: 500px;
+  width: 700px;
+}
+
+.gradiant{
+  width: 70px;
+  height: 700px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-image: linear-gradient(#157759,#a0fbd8);
+  margin-top: -50px;
+}
+.black{
+  color: black;
+}
+.hidden__text__container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  margin-bottom: 50px;
+}
+.hidden__text{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  min-height: 150px;
+  margin-bottom: 55px;
+}
+.separator__vertical{
+  width: 4px;
+  height: 50px;
+  background-image: linear-gradient(#157759,#a0fbd8);
+}
+
+/* ============================================== UNDER BANNER ===================================================== */
+.first_line_col1,.first_line_col2,
+.second_line_col1,.second_line_col2,
+.third_line_col1,.third_line_col2,
+.fourth_line_col1,.fourth_line_col2{
+  width: 50%;
+}
+.underBanner__container{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -150px;
+}
+.underBanner__container h2{
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 95px;
+}
+.underBanner__container h3 {
+  font-size: 28px;
+}
+.underBanner__first_line,.underBanner__second_line,.underBanner__third_line,.underBanner__fourth_line{
+  display: flex;
+  width: 100%;
+  height: 550px;
+  margin: 5px 0px;
+}
+.underBanner__fourth_line{
+  margin-bottom: 0;
+}
+.first_line_col1{
+  background-image: url(../public/meditation.png);
+  background-size: cover;
+}
+
+.second_line_col2{
+  background-image: url(../public/stress.png);
+  background-size: cover;
+}
+.third_line_col1{
+  background-image: url(../public/performance.png);
+  background-size: cover;
+}
+.third_line_col2{
+  background-image: url(../public/foam1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.fourth_line_col2{
+  background-image: url(../public/medicaments.png);
+  background-size: cover;
+}
+.first_line_col2,.second_line_col1,.third_line_col2,.fourth_line_col1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 25px 68px;
+}
+.third_line_col2{
+  color: white;
+  padding: 5px 150px 5px 65px!important;
+}
+.underBanner__container h2{
+  text-align: center;
+}
+
+/* ============================================== FOOTER ===================================================== */
+.footer__container{
+  background-image: url(../public/wave4.png);
+  background-size: cover;
+  background-position: left;
+  width: 1920px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer__separator{
+  height: 1px;
+  background-color: white;
+  width: 50%;
+  margin-left: -200px;
+}
+.footer__navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -200px;
+}
+.footer__logo{
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.footer__navbar ul{
+  list-style: none;
+  display: flex;
+}
+.footer__navbar ul li{
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: 12px;
+    padding: 7px 15px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    color: white;
+    min-width: fit-content;
+    cursor: pointer;
+}
+.footer__pricing{
+  display: flex;
+}
+.footer__pricing_prenium{
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px 25px;
+  min-width: 400px;
+  margin-right: 100px;
+  margin-bottom: 105px;
+  margin-left: -200px;
+  border: 1px solid lightgray;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  transition: 0.3s linear;
+}
+.footer__pricing_prenium span{
+  color: #5BBA99;
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer__pricing_prenium h2,.footer__pricing_prenium span{
+  text-align: center;
+}
+.footer__pricing_prenium:hover{
+  transform: translateY(-30px);
+}
+.footer__pricing_pricinglist{
+  color: white;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  max-height: 210px;
+}
+.footer__btn{
+  border-radius: 25px;
+  border: 2px solid white;
+  width: fit-content;
+  padding: 7px 15px;
+  margin-top: 35px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.footer__btn:hover{
+  color: #157759;
+  background-color: white;
+}
