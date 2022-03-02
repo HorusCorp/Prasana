@@ -1,4 +1,5 @@
 import React from 'react'
+import  Link  from 'next/link'
 
 function Footer() {
     return (
@@ -24,8 +25,8 @@ function Footer() {
                 <div className='footer__logo'>PRASANA</div>
                 <div className='footer__list'>
                     <ul>
-                        <li>Accueil</li>
-                        <li>Nos Formations</li>
+                        <Link href="/"><li>Accueil</li></Link>
+                        <Link href="/methodes"><li>Nos Méthodes</li></Link>
                         <li>Contactez-nous</li>
                     </ul>
                 </div>

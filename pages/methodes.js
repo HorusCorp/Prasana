@@ -1,12 +1,13 @@
 import Head from 'next/head'
-import AnimatedCards from '../Components/AnimatedCards'
-import Banner from '../Components/Banner'
+import Banner2 from '../Components/Banner2'
+import Bowen from '../Components/Bowen'
 import Footer from '../Components/Footer'
-import UnderBanner from '../Components/UnderBanner'
+import Kinesiologie from '../Components/Kinesiologie'
 
-export default function Index() {
+
+
+export default function Methodes() {
   return (
-    
     <div>
       <Head>
         <title>Prasana</title>
@@ -15,9 +16,10 @@ export default function Index() {
       </Head>
 
       <main>
-        <Banner/>
-        <UnderBanner/>
-        <AnimatedCards/>
+        <Banner2/>
+            {/* ici les composant de la page */}
+            <Kinesiologie/>
+            <Bowen/>
         <Footer/>
       </main>
 

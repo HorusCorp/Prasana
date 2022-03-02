@@ -109,6 +109,7 @@ ul h1{
 }
 .header__card:hover{
   transform: translateY(-20px);
+  cursor: pointer;
 }
 .header__card h2{
   font-size: 20px;
@@ -328,4 +329,46 @@ ul h1{
 .footer__btn:hover{
   color: #157759;
   background-color: white;
+}
+/* ============================================== */
+.kinesiologie__container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -250px;
+  margin-bottom: 100px;
+}
+.kinesiologie__content__container{
+  width: 65%;
+  background-image: linear-gradient(#157759,#27c286);
+  color:  white;
+  padding: 20px 60px;
+  border-radius: 15px;
+}
+.bowen__container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bowen__content__container{
+  width: 65%;
+  padding: 20px 60px;
+  border-radius: 15px;
+  margin-top: 35px;
+}
+.bownen__text{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#157759,#27c286);
+  color:  white;
+  padding: 20px 60px;
+  border-radius: 15px;
+}
+.bowen__lastline{
+  margin-top: 45px;
 }

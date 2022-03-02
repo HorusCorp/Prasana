@@ -1,13 +1,9 @@
 import React, {useState} from 'react'
 import  Link  from 'next/link'
 
-function Banner() {
+function Banner2() {
     const [show, setShow] = useState(false);
     const [active, setactive] = useState(false);
-
-    const handleClick = () => {
-
-    }
 
     return (
     <div className='header__background'>
@@ -35,23 +31,6 @@ function Banner() {
             </div>
             <div className='header__img'></div>
         </div>
-        <div className='header__card__container'>
-            <Link href="/methodes"><div className='header__card'>
-                {/* <div className='gradiant'></div> */}
-                <h2>Thérapies alternatives</h2>
-                <p>Soignez vos douleurs physiques ou votre stress par des méthodes qui ont prouvées leur efficacité.</p>
-            </div></Link>
-            <div className='header__card' onMouseEnter={()=>setShow(true)} onMouseLeave={()=>setShow(false)}>
-                {/* <div className='gradiant'></div> */}
-                <h2>Développement personnel</h2>
-                <p>Changez votre vie et atteignez vos objectifs, en changeant votre perception du monde qui vous entoure. Eliminez le stress qui vous empêche d'avancer. Reprenez le contrôle de votre vie.</p>
-            </div>
-            <div className='header__card'>
-                {/* <div className='gradiant'></div> */}
-                <h2>Optimiser vos performances</h2>
-                <p>Le bien être physiques participe grandement au bien être mental. Devenez confiant grâce au sport !</p>
-            </div>
-        </div>
 {/*======================================== CARDS hidden Text ====================================*/}
         {show?<div className='hidden__text__container'>
                 <div className='hidden__text'>
@@ -65,4 +44,4 @@ function Banner() {
     )
 }
 
-export default Banner
+export default Banner2
