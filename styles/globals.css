@@ -372,3 +372,166 @@ ul h1{
 .bowen__lastline{
   margin-top: 45px;
 }
+
+
+
+
+/*BIG SCREEN*/
+@media screen and (max-width: 1850px) {
+
+}
+
+@media screen and (max-width: 1450px) {
+  .header__img_container{
+    margin-left: 5%;
+    width: 90%;
+  }
+  .header__img__text{
+    margin-top: 75px;
+    width: 100%;
+  }
+  .header__img{
+    margin-left: -750px;
+  }
+}
+
+
+/*PHONE*/
+@media screen and (max-width: 600px){
+  .Navbar{
+    max-width: 100%;
+    width:100%;
+  }
+  .Navbar__list_container{
+    width: 100%;
+  }
+  .header__img{
+    height: 250px;
+    background-size: cover;
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+  }
+  .header__img_container{
+    flex-direction: column-reverse;
+    height: auto;
+    min-height: 500px;
+  }
+  .header__img__text{
+    margin-top: 10px;
+  }
+  .header__card__container{
+    flex-direction: column;
+    height: auto;
+    min-height: 900px;
+  }
+  .underBanner__container, .underBanner__second_line{
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 0;
+    height: auto;
+  }
+  .underBanner__container h2,.underBanner__second_line h2{
+    margin-bottom: 35px;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+  }
+  h3,.underBanner__container h3{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+  }
+  .underBanner__first_line,.underBanner__second_line,.underBanner__third_line,.underBanner__fourth_line{
+    flex-direction: column;
+  }
+  .underBanner__third_line{
+    height: auto;
+  }
+  .first_line_col1,.first_line_col2{
+    width: 100%;
+    padding: 25px 20px;
+  }
+  .first_line_col1{
+    height: 500px;
+    padding: 0;
+  }
+  .second_line_col1,.second_line_col2{
+    width: 100%;
+    height: auto;
+    padding: 25px 20px;
+  }
+  .second_line_col1{
+    height: 500px;
+  }
+  .second_line_col2{
+    height: 300px;
+    padding: 0;
+  }
+
+  .underBanner__second_line{
+    flex-direction: column-reverse;
+  }
+  .third_line_col1,.third_line_col2{
+    width: 100%;
+    height: auto;
+    padding: 25px 20px;
+  }
+  .third_line_col1{
+    height: 300px;
+  }
+  .third_line_col2{
+    height: 400px;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px!important;
+    color: black;
+    background-image: none;
+  }
+  .fourth_line_col1{
+    width: 100%;
+    padding: 25px 20px;
+  }
+  .footer__container{
+    width: 100%;
+    height: 150px;
+  }
+  .header__background{
+    min-height: 1000px;
+    background-position: left;
+  }
+  .kinesiologie__content__container,.bowen__content__container,.bownen__text{
+    width: 96%;
+    font-size: 16px;
+    padding: 20px 30px;
+  }
+  .kinesiologie__content__container h2,.bowen__content__container h2{
+    text-align: center;
+  }
+  .bowen__content__container{
+    margin-top: 0;
+  }
+  .footer__navbar,.Navbar{
+    margin-left: 0;
+    max-width: 100vw;
+    font-size: 12px;
+  }
+  .footer__list ul,.Navbar ul {
+    padding: 0;
+  }
+  .footer__list ul li,.Navbar ul li{
+    margin-right: 0;
+    padding: 5px;
+  }
+  .footer__logo,.footer__separator{
+    display: none;
+  }
+  .header__card__container{
+    align-items: center;
+  }
+  .header__card{
+    margin: 0 0 35px 0;
+  }
+}
