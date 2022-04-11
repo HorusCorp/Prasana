@@ -25,7 +25,7 @@ function Micromassage() {
               <p>❖ Sentiment d'enfermement (besoin de respirer), manque d'espace</p>
               <p>❖ Manque de motivation</p>
               <p>❖ Manque d'entrain, sentiment de lourdeur</p>
-              <p>❖ Repercution partout dansl e corps via la colonne vertébrale</p>
+              <p>❖ Repercution partout dans le corps via la colonne vertébrale</p>
               </div>
          </div>  
       </div>
