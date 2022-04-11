@@ -1,8 +1,11 @@
 import Head from 'next/head'
+import Accessbar from '../Components/AccessBar'
 import Banner2 from '../Components/Banner2'
 import Bowen from '../Components/Bowen'
 import Footer from '../Components/Footer'
 import Kinesiologie from '../Components/Kinesiologie'
+import Micromassage from '../Components/Micromassage'
+import MicromassageV from '../Components/MicromassageV'
 
 
 
@@ -20,6 +23,9 @@ export default function Methodes() {
             {/* ici les composant de la page */}
             <Kinesiologie/>
             <Bowen/>
+            <Micromassage/>
+            <MicromassageV/>
+            <Accessbar/>
         <Footer/>
       </main>
 

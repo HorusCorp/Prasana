@@ -22,6 +22,7 @@ ul h1{
   padding: 7px 15px;
 }
 
+
 /* ==================================================== BANNER + HEADER ========================================================*/
 
 .header__background{
@@ -359,6 +360,9 @@ ul h1{
   padding: 20px 60px;
   border-radius: 15px;
   margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 75px;
 }
 .bownen__text{
   width: 65%;
@@ -370,6 +374,24 @@ ul h1{
   border-radius: 15px;
 }
 .bowen__lastline{
+  margin-top: 45px;
+}
+.micromassage__container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.micromassage__content__container{
+  width: 100%;
+  padding: 20px 60px;
+  border-radius: 15px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+.micromassage__lastline{
   margin-top: 45px;
 }
 
@@ -534,4 +556,11 @@ ul h1{
   .header__card{
     margin: 0 0 35px 0;
   }
+  .micromassage__content__container{
+    padding: 0 0;
+  }
+  .micromassage__content__container h3{
+    color: white;
+  }
+  
 }
