@@ -8,7 +8,7 @@ function Micromassage() {
           <div className='micromassage__content__container'>
               <h2>Micromassage Cranien</h2>
               <Image
-                src="/Micromassage.jpg"
+                src="/micromassage.jpg"
                 alt="Picture of the author"
                 width={1000}
                 height={400}
