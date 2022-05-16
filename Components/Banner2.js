@@ -13,7 +13,8 @@ function Banner2() {
                     <ul>
                         <h1>PRASANA</h1>
                         <Link href="/"><li>Accueil</li></Link>
-                        <Link href="/methodes"><li>Nos Méthodes</li></Link>
+                        <Link href="/bienetretravail"><li>Bien être au travail</li></Link>
+                        <Link href="/methodes"><li>Nos Recommandations</li></Link>
                         {/* <li>Nos Tarifs</li> */}
                     </ul>
                 </div>
@@ -22,7 +23,7 @@ function Banner2() {
                 </ul>
             </div>
 {/*======================================== CARDS and IMG ====================================*/}
-        <div className='header__img_container'>
+        {/* <div className='header__img_container'>
             <div className='header__img__text'>
                 <h2>Etymologie du mot PRASANA</h2>
                 <p>PRA du mot sankrit</p>
@@ -30,16 +31,16 @@ function Banner2() {
                 <p>SANA du latin sana, sanus, sanum signifie 'en bonne santé'</p>
             </div>
             <div className='header__img'></div>
-        </div>
+        </div> */}
 {/*======================================== CARDS hidden Text ====================================*/}
-        {show?<div className='hidden__text__container'>
+        {/* {show?<div className='hidden__text__container'>
                 <div className='hidden__text'>
                     <h3>Sport</h3>
                     <div className='separator__vertical'></div>
                     <h3>Business</h3>
                 </div>
             </div>
-        :''}
+        :''} */}
     </div>
     )
 }

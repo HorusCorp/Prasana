@@ -3,7 +3,6 @@ import React from 'react'
 function UnderBanner() {
     return (
         <div className='underBanner__container'>
-            <h2>Nos axes de travail</h2>
             <div className='underBanner__first_line'>
                 <div className='first_line_col1'></div>
                 <div className='first_line_col2'>

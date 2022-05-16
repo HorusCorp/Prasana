@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Banner2 from '../Components/Banner2'
-import ContactButton from '../Components/ContactButton'
-import Footer from '../Components/Footer'
-import UnderBanner from '../Components/UnderBanner'
+import Contactus from '../Components/Contactus'
+
 
 
 
@@ -17,10 +16,8 @@ export default function Methodes() {
 
       <main>
         <Banner2/>
-          <ContactButton/>
             {/* ici les composant de la page */}
-            <UnderBanner/>
-        <Footer/>
+            <Contactus/>
       </main>
 
       <footer >

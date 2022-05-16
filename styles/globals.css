@@ -19,10 +19,33 @@ a {
 }
 ul h1{
   margin: 0 45px 0 0;
-  padding: 7px 15px;
 }
 
-
+.fixed__contact_btn{
+  background-image: linear-gradient(to right bottom, #157759, #3c9676, #5cb695, #7cd7b4, #9df9d5);
+  color: white;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  position: fixed;
+  top: 570px;
+  right: 0;
+  padding: 15px 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+.contactus{
+  background-image: linear-gradient(to right bottom, #157759, #3c9676, #5cb695, #7cd7b4, #9df9d5);
+  box-sizing: border-box;
+  padding: 25px;
+  color: white;
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 /* ==================================================== BANNER + HEADER ========================================================*/
 
 .header__background{
@@ -30,7 +53,7 @@ ul h1{
   background-size: cover;
   background-position:center;
   width: 100vw;
-  min-height: 1068px;
+  min-height: 50px;
   height: auto;
 }
 .Navbar{
@@ -38,6 +61,12 @@ ul h1{
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  height: 60px;
+  background-color: #157759;
+  color: #27c286;
+  background-image: linear-gradient(to right bottom, #157759, #3c9676, #5cb695, #7cd7b4, #9df9d5);
+  border-bottom: 2px solid white;
+  position: fixed;
 }
 .Navbar__list_container ul{
   display: flex;
@@ -61,7 +90,6 @@ ul h1{
 }
 .Navbar ul li{
   margin-right: 15px;
-  margin-top: 20px;
   padding: 7px 15px;
   border: 2px solid rgba(0, 0, 0, 0);
   color: white;
@@ -130,12 +158,12 @@ ul h1{
   flex-direction: column;
   justify-content: center;
 }
-.header__img{
+/* .header__img{
   background-image: url(../public/doctors.png);
   background-size: cover;
   height: 500px;
   width: 700px;
-}
+} */
 
 .gradiant{
   width: 70px;
@@ -178,12 +206,11 @@ ul h1{
 .underBanner__container{
   width: 80%;
   margin-left: 10%;
-  margin-top: -150px;
 }
 .underBanner__container h2{
   font-size: 35px;
   margin-bottom: 10px;
-  margin-top: 95px;
+  margin-top: -295px;
 }
 .underBanner__container h3 {
   font-size: 28px;
@@ -233,24 +260,38 @@ ul h1{
 .underBanner__container h2{
   text-align: center;
 }
-
+/* ============================================== BIENETREPRO ===================================================== */
+.bienetre__banner{
+  background-image: url(../public/bowen-by-danielle-home.jpg);
+  width: 100%;
+  height: 560px;
+}
+.bienetre__text__container{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 75px;
+}
+.bienetre__text__container h1{
+  text-transform: uppercase;
+}
+.bienetre__text__container h2{
+  text-transform: lowercase;
+  margin-top: 55px;
+}
+.bienetre__text__container h1, .bienetre__text__container h2{
+  color: #27886A;
+}
 /* ============================================== FOOTER ===================================================== */
 .footer__container{
   background-image: url(../public/wave4.png);
   background-size: cover;
   background-position: left;
-  width: 1920px;
-  height: 900px;
+  width: 100%;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-}
-.footer__separator{
-  height: 1px;
-  background-color: white;
-  width: 50%;
-  margin-left: -200px;
 }
 .footer__navbar{
   width: 100%;
@@ -394,9 +435,52 @@ ul h1{
 .micromassage__lastline{
   margin-top: 45px;
 }
-
-
-
+.bowen__second__container{
+  width: 100%;
+}
+.banner__bowen__second{
+  background-image: url(../public/bowenbanner.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+}
+.bowen__second__container__firstpart{
+  margin-bottom: 115px;
+  margin-top: 75px;
+  width: 80%;
+  margin-left: 10%;
+}
+.bowen__second__container__firstpart h2{
+  margin-bottom: 55px;
+  color: #27886A;
+}
+.three__column__container{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+}
+.three__column__container > div{
+  box-sizing: border-box;
+  padding: 15px 25px;
+}
+.three__column__container > div > h2{
+  color: #157759;
+}
+.pic1{
+  background-image: url(../public/bowen-382-e1558556631684.jpg);
+}
+.pic2{
+  background-image: url(../public/bowen-313-Edit-e1558473949945.jpg);
+}
+.pic3{
+  background-image: url(../public/Tom-Bowen-Colour-e1558473218243.jpg);
+}
+.pic1,.pic2,.pic3{
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
 
 /*BIG SCREEN*/
 @media screen and (max-width: 1850px) {
@@ -426,6 +510,69 @@ ul h1{
   }
   .Navbar__list_container{
     width: 100%;
+  }
+  ul h1{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .Navbar ul li{
+    font-size: 9px;
+  }
+  .bienetre__banner{
+    height: 200px;
+    background-size: cover;
+  }
+  .bienetre__text__container h1, .bienetre__text__container h2{
+    text-align: center;
+  }
+  .bienetre__text__container p,
+  .second_line_col1 p,
+  .second_line_col2 p,
+  .second_line_col3 p,
+  .third_line_col2 p{
+    text-align: justify;
+  }
+  .fixed__contact_btn{
+    top: 232px;
+    font-size: 9px;
+    padding: 10px;
+  }
+  .third_line_col2{
+    width: 90%!important;
+    margin-left: 5%;
+    padding: 0;
+  }
+  .footer__list ul li{
+    color: black;
+    font-size: 9px;
+  }
+  .banner__bowen__second{
+    height: 200px;
+  }
+  .bowen__second__container__firstpart{
+    text-align: justify;
+  }
+  .bowen__second__container__firstpart h2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .three__column__container{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .three__column__container > div{
+    padding: 0;
+    width: 100%;
+  }
+  .three__column__container > div > h2,
+  .three__column__container > div > p{
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+  }
+  .three__column__container > div > h2{
+    text-align: center;
   }
   .header__img{
     height: 250px;
@@ -521,7 +668,7 @@ ul h1{
     height: 150px;
   }
   .header__background{
-    min-height: 1000px;
+    min-height: 50px;
     background-position: left;
   }
   .kinesiologie__content__container,.bowen__content__container,.bownen__text{

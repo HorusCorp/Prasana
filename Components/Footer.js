@@ -26,7 +26,8 @@ function Footer() {
                 <div className='footer__list'>
                     <ul>
                         <Link href="/"><li>Accueil</li></Link>
-                        <Link href="/methodes"><li>Nos Méthodes</li></Link>
+                        <Link href="/bienetretravail"><li>Bien être au travail</li></Link>
+                        <Link href="/methodes"><li>Nos Recommandations</li></Link>
                         <li>Contactez-nous</li>
                     </ul>
                 </div>
