@@ -14,7 +14,7 @@ function Banner2() {
                         <h1>PRASANA</h1>
                         <Link href="/"><li>Accueil</li></Link>
                         <Link href="/bienetretravail"><li>Bien être au travail</li></Link>
-                        <Link href="/methodes"><li>Nos Recommandations</li></Link>
+                        <Link href="/methodes"><li>Autres techniques</li></Link>
                         {/* <li>Nos Tarifs</li> */}
                     </ul>
                 </div>

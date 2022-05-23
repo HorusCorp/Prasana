@@ -3,6 +3,18 @@ import React from 'react'
 function UnderBanner() {
     return (
         <div className='underBanner__container'>
+            <div className='underBanner__fourth_line'>
+                <div className='fourth_line_col1'>
+                    <h3>LES THERAPIES ALTERNATIVES  !</h3>
+                    <p>Le ministère de la Santé, emploie le terme de « pratiques de soin non conventionnelles ».L’Organisation mondiale de la santé, en recense plus de 400 dans le monde.</p>
+                    <p>Elles sont classées en France en 4 catégories</p>
+                    <p>  ❖ Les thérapies biologiques, à base de produits naturels (phytothérapie, aromathérapie…)</p>
+                    <p>  ❖ Les thérapies manuelles (ostéopathie, chiropraxie…)</p>
+                    <p>  ❖ Les thérapies corps-esprit (hypnose, sophrologie…)</p>
+                    <p>  ❖ Les « systèmes complets » qui reposent sur leurs propres principes de guérison (acupuncture, homéopathie)</p>
+                </div>
+                <div className='fourth_line_col2'></div>
+            </div>
             <div className='underBanner__first_line'>
                 <div className='first_line_col1'></div>
                 <div className='first_line_col2'>
@@ -27,18 +39,7 @@ function UnderBanner() {
                     <p>L’optimisation doit être vue comme une démarche complexe, qui implique une connaissance précise de l’ensemble des facteurs d’accès à la performance, et bien plus encore des facteurs limitants.</p>
                 </div>
             </div>
-            <div className='underBanner__fourth_line'>
-                <div className='fourth_line_col1'>
-                    <h3>LES THERAPIES ALTERNATIVES  !</h3>
-                    <p>Le ministère de la Santé, emploie le terme de « pratiques de soin non conventionnelles ».L’Organisation mondiale de la santé, en recense plus de 400 dans le monde.</p>
-                    <p>Elles sont classées en France en 4 catégories</p>
-                    <p>  ❖ Les thérapies biologiques, à base de produits naturels (phytothérapie, aromathérapie…)</p>
-                    <p>  ❖ Les thérapies manuelles (ostéopathie, chiropraxie…)</p>
-                    <p>  ❖ Les thérapies corps-esprit (hypnose, sophrologie…)</p>
-                    <p>  ❖ Les « systèmes complets » qui reposent sur leurs propres principes de guérison (acupuncture, homéopathie)</p>
-                </div>
-                <div className='fourth_line_col2'></div>
-            </div>
+            
         </div>
     )
 }

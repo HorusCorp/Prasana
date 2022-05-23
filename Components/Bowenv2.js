@@ -8,7 +8,7 @@ function Bowenv2() {
             <h2>La Thérapie Bowen  est un traitement de libération musculo-squelettique qui agit pour restaurer une fonction saine et réduire la douleur.</h2>
             <p>C'est un traitement non invasif appliqué sur le corps à l'aide des pouces et des doigts. Il cherche à <strong>corriger les déséquilibres</strong> principalement autour de la colonne vertébrale, du bassin, du cou et de la tête, mais aussi dans tout le corps. Bowen utilise un mouvement de type roulement unique, à la pression qui vous convient pour stimuler une réponse, relâcher la tension et rééquilibrer.</p>
             <p>Il s'agit d'une approche <strong>« complête »</strong> et travaille donc avec tout votre corps plutôt que de se concentrer uniquement sur un problème ou un symptôme spécifique.</p>
-            <p>Ce mouvement n'implique pas d'ajustements difficiles, ce n'est pas un coup de muscle ou un massage. Au lieu de cela, il utilise la peau disponible pour se déplacer sur le muscle, le tendon et le tissu conjonctif sous-jacents. Chaque mouvement ne couvre qu'une petite zone, définie par la marge disponible pour chaque individu.</p>
+            <p>Ce mouvement utilise la peau disponible pour se déplacer sur le muscle, le tendon et le tissu conjonctif sous-jacents. Chaque mouvement ne couvre qu'une petite zone, définie par la marge disponible pour chaque individu.</p>
             <p>Le traitement <strong>peut être effectué à travers des vêtements légers</strong>, il n'est donc pas nécessaire de se déshabiller.</p>
             <p>Cette thérapie est relaxante à recevoir et <strong>convient à tous les âges et à tous les types de personnes</strong>, du nouveau-né aux personnes âgées et infirmes.</p>
         </div>
